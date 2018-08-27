@@ -1,0 +1,98 @@
+<!-- Copyright (C) 2017 The Android Open Source Project
+
+Licensed under the Apache License, Version 2.0 (the "License");
+you may not use this file except in compliance with the License.
+You may obtain a copy of the License at
+
+     http://www.apache.org/licenses/LICENSE-2.0
+
+Unless required by applicable law or agreed to in writing, software
+distributed under the License is distributed on an "AS IS" BASIS,
+WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+See the License for the specific language governing permissions and
+limitations under the License. -->
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+  <com.google.android.exoplayer2.ui.SimpleExoPlayerView
+      android:id="@+id/video_view"
+      android:layout_width="0dp"
+      android:layout_height="0dp"
+      android:layout_alignParentTop="true"
+      android:layout_centerHorizontal="true"
+      android:layout_gravity="center"
+
+      app:controller_layout_id="@layout/activity_player_custom" />
+
+  <ImageView
+        android:id="@+id/imageView5"
+        android:layout_width="match_parent"
+        android:layout_height="250dp"
+        android:scaleType="fitCenter"
+        app:srcCompat="@drawable/indian" />
+  <Button
+      android:id="@+id/radio1"
+      android:background="#232323"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:layout_gravity="bottom"
+      android:text="Listen via Radio "
+      android:textAllCaps="false"
+      android:textSize="20dp"
+      android:layout_marginLeft="40dp"
+      android:layout_marginBottom="135dp"
+      android:layout_marginRight="40dp"
+      android:onClick="fmradio"
+      android:textColor="#fff"/>
+    <Button
+        android:id="@+id/rad"
+        android:background="#232323"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom"
+        android:text="Anouncement via Internet "
+        android:textAllCaps="false"
+        android:textSize="20dp"
+        android:layout_marginLeft="40dp"
+        android:layout_marginBottom="70dp"
+        android:layout_marginRight="40dp"
+        android:onClick="netw"
+        android:textColor="#fff"/>
+
+    <Button
+      android:id="@+id/second"
+      android:background="#232323"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:layout_gravity="bottom"
+      android:text="Train Specific Anouncement "
+      android:textAllCaps="false"
+      android:textSize="20dp"
+      android:layout_marginLeft="40dp"
+      android:layout_marginBottom="5dp"
+      android:layout_marginRight="40dp"
+      android:onClick="change1"
+      android:textColor="#fff"/>
+
+  <Button
+      android:id="@+id/button"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:layout_below="@+id/video_view"
+      android:layout_centerHorizontal="true"
+      android:layout_gravity="center"
+      android:layout_marginLeft="40dp"
+      android:layout_marginRight="40dp"
+      android:layout_marginTop="40dp"
+      android:background="#232323"
+      android:onClick="again"
+      android:text="Live Anouncement"
+      android:textAllCaps="false"
+      android:textColor="#ffffff"
+      android:textSize="20dp" />
+
+
+</FrameLayout>

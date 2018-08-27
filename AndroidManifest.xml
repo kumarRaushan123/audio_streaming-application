@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.exoplayer">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_train_black_24dp"
+        android:label="@string/app_name"
+        android:supportsRtl="true">
+        <activity
+            android:name=".Splash"
+            android:label="@string/player_activity_name"
+            android:theme="@style/PlayerTheme">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".PlayerActivity"
+            android:configChanges="keyboard|keyboardHidden|orientation|screenSize|screenLayout|smallestScreenSize|uiMode"
+            android:label="@string/player_activity_name"
+            android:theme="@style/AppTheme">
+
+        </activity>
+        <activity
+            android:name=".MainAc"
+            android:configChanges="keyboard|keyboardHidden|orientation|screenSize|screenLayout|smallestScreenSize|uiMode"
+            android:label="@string/player_activity_name"
+            android:theme="@style/AppTheme">
+
+        </activity>
+        <activity
+            android:name=".Lang"
+            android:label="@string/player_activity_name"
+            android:theme="@style/AppTheme">
+
+        </activity>
+        <activity
+            android:name=".MainAcHindi"
+            android:label="@string/title_radio_page"
+            android:theme="@style/AppTheme">
+
+        </activity>
+        <activity
+            android:name=".PlayerActivityHindi"
+            android:label="@string/title_anouncement_page"
+            android:theme="@style/AppTheme">
+
+        </activity>
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/title_anouncement_page"
+            android:theme="@style/AppTheme">
+
+        </activity>
+        <activity
+            android:name=".Anounce"
+            android:label="@string/title_anouncement_page"
+            android:theme="@style/AppTheme">
+
+        </activity>
+        <activity
+            android:name=".Streaming1"
+            android:label="@string/title_anouncement_page"
+            android:theme="@style/AppTheme">
+
+        </activity>
+        <activity
+            android:name=".Streaming2"
+            android:label="@string/title_anouncement_page"
+            android:theme="@style/AppTheme">
+
+        </activity>
+        <activity
+            android:name=".Streaming3"
+            android:label="@string/title_anouncement_page"
+            android:theme="@style/AppTheme">
+
+        </activity>
+        <activity
+            android:name=".Streaming4"
+            android:label="@string/title_anouncement_page"
+            android:theme="@style/AppTheme">
+
+        </activity>
+        <activity
+            android:name=".MainActivityHindi"
+            android:label="@string/title_anouncement_page"
+            android:theme="@style/AppTheme">
+
+        </activity>
+        <activity android:name=".Netwo"
+            android:label="@string/title_anouncement_page"
+            android:theme="@style/AppTheme"
+            ></activity>
+
+
+
+    </application>
+
+</manifest>

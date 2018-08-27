@@ -1,0 +1,9 @@
+
+<resources>
+    <string name="app_name">Public Address System</string>
+    <string name="player_activity_name">PAS</string>
+    <string name="title_anouncement_page">Anouncement</string>
+    <string name="title_radio_page">Radio</string>
+    <string name="media_url_mp3">http://192.168.3.101:8000/stream</string>
+
+</resources>

@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="300dp" android:layout_height="200dp">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="बंद करे"
+            android:textColor="#000000"
+            android:textSize="15dp"
+            android:layout_gravity="end"/>
+        <TextView
+            android:id="@+id/text_dialog"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:textStyle="bold"
+            android:text="भारतीय रेलवे में आपका स्वागत है"
+            android:textSize="20dp"
+            android:textColor="#000000"
+            />
+        <TextView
+            android:id="@+id/set2"
+            android:layout_marginTop="20dp"
+            android:layout_gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="रेडियो सिस्टम में नहीं है"
+            android:textSize="20dp"
+            android:textColor="#0000ff"/>
+        <TextView
+            android:id="@+id/set1"
+            android:layout_marginTop="20dp"
+            android:layout_gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="वापस"
+            android:textSize="20dp"
+            android:textColor="#000000"/>
+
+
+    </LinearLayout>
+</RelativeLayout>
